@@ -27,7 +27,7 @@
                                :modules    {:main {:entries [dag-next.core]}}
                                :devtools   {:after-load dag-next.core/on-update
                                             :http-root  "public"
-                                            :http-port  3000}}}}
+                                            :http-port  3001}}}}
 
   :repl-options {:init-ns dag-next.core}
 
